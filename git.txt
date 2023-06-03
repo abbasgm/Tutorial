@@ -11,3 +11,5 @@ Basic operation ada 5.
 
 *2-4: kene ikut turutan untuk berjaya upload.
 *5. kalau terdelete from dekstop. boleh retrieve dari pull. atau ambil latest changes dari upload org lain.
+
+kalau nk live kn dalam URL github, kene pastikan upload dalam branch gh-pages.
