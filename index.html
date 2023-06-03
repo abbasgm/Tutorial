@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style>
+      .mainContainer {
+        /* display: flex; */
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        margin: 10px;
+        padding: 0;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background-color: black; */
+        margin: 20px 0;
+        width: 95%;
+      }
+      .idCard {
+        display: flex;
+        justify-content: center;
+        background-color: #7bb5c1;
+        padding: 2vh;
+        font-size: 40px;
+        color: white;
+        border-radius: 25px 25px 0 0;
+      }
+      .bottomPart {
+        display: flex;
+        justify-content: space-between;
+        /* border: 20px; */
+        background-color: #add7e5;
+        border-radius: 0 0 25px 25px;
+      }
+      .leftSide {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      .upper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+      }
+      .gambar {
+        display: flex;
+        background-color: #f2f0db;
+        height: 35vh;
+        width: 30vh;
+        margin: 10px 10px;
+      }
+      .fiveLetter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /* align-content: space-evenly; */
+        /* background-color: brown; */
+        height: 93%;
+        width: 100%;
+      }
+      .rightSide {
+        display: flex;
+        /* justify-content: flex-end; */
+        background-color: red;
+        margin: 13px 20px 10px 20px;
+      }
+      .bottom {
+        display: flex;
+        background-color: #69a3ae;
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px;
+      }
+      .wordSpace1 {
+        display: flex;
+        background-color: #69a3ae;
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px;
+      }
+      .wordSpace2 {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: #69a3ae; */
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px;
+      }
+      .wordSpace3 {
+        display: flex;
+        justify-content: space-between;
+        background-color: #69a3ae;
+        width: 90%;
+        padding: 10px 0;
+        margin: 10px 20px;
+      }
+      .wordSpaceDouble1 {
+        display: flex;
+        background-color: #69a3ae;
+        margin: 0 20px 0 30px;
+        width: 50%;
+        padding: 10px 0;
+      }
+      .wordSpaceDouble2 {
+        display: flex;
+        background-color: #69a3ae;
+        margin: 0 20px 0 30px;
+        width: 30%;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <!-- mainContainer -->
+      <div class="card">
+        <!-- Card -->
+        <div class="idCard">ID Card</div>
+        <div class="bottomPart">
+          <!-- bottomSide -->
+          <div class="leftSide">
+            <!-- leftSide -->
+            <div class="upper">
+              <!-- upper -->
+              <div class="gambar">
+                <img src="passportPic.jpg" alt="passport photo">
+              </div>
+              <div class="fiveLetter">
+                <div class="wordSpace1"></div>
+
+                <div class="wordSpace2">
+                  <div class="wordSpaceDouble1"></div>
+                  <div class="wordSpaceDouble2"></div>
+                </div>
+
+                <div class="wordSpace2">
+                  <div class="wordSpaceDouble2"></div>
+                  <div class="wordSpaceDouble1"></div>
+                </div>
+
+                <div class="wordSpace3"></div>
+
+                <div class="wordSpace2">
+                  <div class="wordSpaceDouble1"></div>
+                  <div class="wordSpaceDouble2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom"></div>
+          </div>
+          <div class="rightSide">
+            <img src="vertical-barcode-1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+CSS FLEX
+- memudahkan grid arrangement. (cara tradisional susah jadi gunakan system grid)
+
+- `display flex` untuk applykan styling flex. (wajib).
+- `flex-direction` - untuk menuntukan horizontal atau vertical.
+-`justify-content` - positioning depend pada direction. 
+                    - kalau ROW effect horizontal.
+                    - Column effect vertical.
+-`align-items` - kalau ROW effect vertical.
+                - kalau Column effect horizontal.`
+
+Kene pastikan semua component ade di DIV yg betul.
+
+height and width untuk parents DIV wajib pakai %.
+
+main component height and width kene pakai vh/vw.
+

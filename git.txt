@@ -1,0 +1,13 @@
+- Git tempat manage sourcecode.
+- github/gitlab contoh platform
+
+Basic operation ada 5.
+1a. initialize (kalau mula2 projek belum wujud dalam git. sekali saja buat.)
+1b. clone (kalau dh wujud dalam git, nk download dalam pc kita.)
+2. add changes.
+3. commit.
+4. push
+5. pull
+
+*2-4: kene ikut turutan untuk berjaya upload.
+*5. kalau terdelete from dekstop. boleh retrieve dari pull. atau ambil latest changes dari upload org lain.
